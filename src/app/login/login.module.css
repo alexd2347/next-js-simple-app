@@ -10,7 +10,7 @@
 .form {
     background-color: var(--primario);
     padding: 3rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
     width: 430px;
     max-width: 90%;
     height: 600px;

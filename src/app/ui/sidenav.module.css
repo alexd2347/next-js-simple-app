@@ -1,5 +1,6 @@
 .sidenav {
     width: 20rem;
+    min-width: 15rem;
     height: 100%;
     background-color: var(--primario);
     display: flex;

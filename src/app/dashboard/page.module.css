@@ -9,9 +9,29 @@
 
 .mainContent {
     width: 100%;
-    height: 100%;
     background-color: var(--blanco);
     color: var(--primario);
     padding: 2rem 3rem;
     font-size: 5rem;
+    max-height: 100vh;
+}
+
+
+.itemContainer {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.itemDetail {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.itemDetail:last-child {
+    margin-bottom: 0;
 }

@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import styles from './Login.module.css';
+import Image from 'next/image';
 
 export default function Login() {
   return (
     <div className={styles.container}>
       <form className={styles.form}>
-        <h2 className={styles.title}>Login</h2>
+
+        <Image src='/next.svg' alt="logo" width={150} height={150} className={styles.logo} />
         <div className={styles.inputGroup}>
           <label htmlFor="email">Email:</label>
           <input

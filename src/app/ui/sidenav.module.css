@@ -16,7 +16,13 @@
     align-items: stretch;
     margin-top: 1rem;
 }
-
+.logo {
+    background-color: var(--blanco);
+    align-self: center;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
 
 .link {
     width: 100%;
@@ -48,8 +54,8 @@
     height: auto;
     margin-bottom: 1rem;
     padding: .6rem;
-    font-weight: 600;
-    border-radius: 1rem;
+    font-weight: 500;
+    border-radius: .5rem;
     color: var(--negro);
     background-color: var(--secundario);
     transition: .3s ease-in-out;

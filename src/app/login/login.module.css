@@ -18,17 +18,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
 }
 
-.title {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    text-align: center;
-    color: var(--blanco);
+.logo {
+    background-color: var(--blanco);
+    align-self: center;
+    padding: 1rem;
+    border-radius: 50%;
 }
 
 .inputGroup {
-    width: 100%;
+    width: 80%;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
@@ -59,9 +60,9 @@
     justify-content: center;
     border: none;
     margin-top: 2rem;
-    width: 70%;
+    width: 50%;
     padding: 0.8rem;
-    font-weight: 600;
+    font-weight: 500;
     background-color: var(--secundario);
     color: var(--negro);
     border-radius: .5rem;

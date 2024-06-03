@@ -5,7 +5,7 @@ const Sidenav = () => {
     return (
         <div className={styles.sidenav}>
             <div className={styles.linksContainer}>
-                <Link className={styles.link} href="/dashboard">
+            <Link className={styles.link} href="/dashboard">
                     Home
                 </Link>
                 <Link className={styles.link} href="/dashboard/about">

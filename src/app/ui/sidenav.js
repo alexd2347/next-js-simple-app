@@ -6,7 +6,7 @@ const Sidenav = () => {
     return (
         <div className={styles.sidenav}>
             <div className={styles.linksContainer}>
-                <Image src='/next.svg' alt="logo" width={100} height={100} className={styles.logo}/>
+                <Image src='/next.svg' alt="logo" width={100} height={100} className={styles.logo} />
                 <Link className={styles.link} href="/dashboard">
                     Home
                 </Link>

@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.mainContent {
+    width: 100%;
+    height: 100%;
+    background-color: var(--blanco);
+    color: var(--primario);
+    padding: 2rem 3rem;
+    font-size: 5rem;
+}

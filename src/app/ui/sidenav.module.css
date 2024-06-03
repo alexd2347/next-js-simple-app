@@ -1,0 +1,60 @@
+.sidenav {
+    width: 20rem;
+    height: 100%;
+    background-color: var(--primario);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    border-right: 2px solid var(--negro);
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+    margin-top: 1rem;
+}
+
+
+.link {
+    width: 100%;
+    height: auto;
+    padding: 1rem; 
+    border-radius: 1rem;
+    color: var(--blanco);
+    background-color: var(--primario);
+    transition: .3s ease-in-out;
+}
+
+.link:hover {
+    filter: saturate(2);
+}
+
+.salirContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.salir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    margin-bottom: 1rem;
+    padding: .6rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    color: var(--negro);
+    background-color: var(--secundario);
+    transition: .3s ease-in-out;
+}
+
+.salir:hover {
+    filter: saturate(2);
+}

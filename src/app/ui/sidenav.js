@@ -19,7 +19,7 @@ const Sidenav = () => {
             </div>
             <div className={styles.salirContainer}>
                 <Link className={styles.salir} href="/">
-                    salir
+                    Sing out
                 </Link>
             </div>
         </div>
